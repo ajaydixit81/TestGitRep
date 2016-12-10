@@ -1,0 +1,371 @@
+@charset "UTF-8";
+
+.banner {
+    width:728px;
+    height:90px;
+    border:3px solid #4b186e;
+    overflow:hidden;
+    box-sizing: border-box;
+    display:block !important;
+}
+
+#loader-container {
+    display:none;
+}
+
+#btn-exit{
+    width:726px;
+    height:88px;
+    cursor:pointer;
+    opacity:0;
+}
+#wavy_lines1 {
+    width:726px;
+    height:88px;
+    top: -3px;
+    left: -3px;
+    background: url('../img/wavy_lines1.png');
+}
+
+.chevronLeft {
+    width:12px;
+    height:23px;
+    background: url('../img/chevronLeft.png');
+}
+
+.chevronRight {
+    width:12px;
+    height:29px;
+    background: url('../img/chevronRight.png');
+}
+
+#chevron1 {
+    top: -10px;
+    left: 438px;
+}
+
+#chevron2 {
+     top: 35px;
+    left: 434px;
+    transform: scale(.8);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+}
+
+#chevron3 {
+    top: 6px;
+    left: 517px;
+}
+
+#chevron4 {
+    top: 4px;
+    left: 464px;
+    transform: scaleX(.8);
+    -moz-transform: scaleX(.8);
+    -webkit-transform: scaleX(.8);
+}
+#chevron5 {
+    top: 67px;
+    left: 517px;
+}
+#chevron6 {
+    top: 68px;
+    left: 466px;
+}
+#chevron7 {
+    top: -15px;
+    left: 547px;
+    transform: scaleX(.8);
+    -moz-transform: scaleX(.8);
+    -webkit-transform: scaleX(.8);
+}
+#chevron8 {
+    top: 29px;
+    left: 549px;
+    transform: scale(.8);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+}
+#product1 {
+    width: 156px;
+    height: 73px;
+    top: 5px;
+    left: 25px;
+    background: url('../img/product1.png');
+    opacity:1;
+}
+.copy1 {
+    opacity: 0;
+    transform: scale(.5);
+    -moz-transform: scale(.5);
+    -webkit-transform: scale(.5);
+}
+#copy1a {
+    width: 69px;
+    height: 15px;
+    top: 19px;
+    left: 209px;
+    background: url(../img/copy1.png)no-repeat -1px 0px;
+}
+#copy1b {
+    background: url(../img/copy1.png)no-repeat -73px 0px;
+    width: 66px;
+    height: 15px;
+    top: 19px;
+    left: 282px;
+}
+#copy1c {
+    width: 232px;
+    height: 31px;
+    top: 37px;
+    left: 208px;
+    background: url(../img/copy1.png)no-repeat -1px -20px;
+}
+#copy1d {
+    width: 73px;
+    height: 22px;
+    top: 39px;
+    left: 462px;
+    background: url(../img/copy1.png)no-repeat -257px -22px;
+}
+#copy1e {
+    width: 129px;
+    height: 28px;
+    top: 35px;
+    left: 564px;
+    background: url(../img/copy1.png)no-repeat -357px -17px;
+}
+#pinkContainer {
+    width: 35px;
+    height: 245px;
+    top: -1px;
+    left: 478px;
+    overflow: hidden;
+}
+#pinkArrow {
+    width: 43px;
+    height: 230px;
+    top: -231px;
+    left: 2px;
+    background: url('../img/pink_arrow.png');
+    opacity:1;
+}
+#wavy_lines2 {
+    width:728px;
+    height:90px;
+    top: -3px;
+    left: -3px;
+    background: url('../img/wavy_lines2.png');
+    opacity: 1;
+}
+#wipe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity:0;
+    background: #FFFFFF;
+}
+#scene2 {
+    opacity: 1;
+    top:-250px;
+    width: 728px;
+    height:90px;
+    background-color:#fff;
+}
+#miraLax_logo {
+    width: 207px;
+    height: 83px;
+    top: -250px;
+    left: 22px;
+    background: url('../img/miraLax_logo.png');
+    opacity: 1;
+}
+.copy2 {
+    opacity:1;
+}
+#copy2a {
+    width: 67px;
+    height: 18px;
+    top: 17px;
+    left: 258px;
+    background: url(../img/copy2.png)no-repeat -2px -1px;
+}
+#copy2b {
+    width: 114px;
+    height: 52px;
+    top: 14px;
+    left: 327px;
+    background: url(../img/copy2.png)no-repeat -71px 3px;
+}
+#copy2c {
+    width: 80px;
+    height: 25px;
+    top: 31px;
+    left: 457px;
+    background: url(../img/copy2.png)no-repeat -201px -15px;
+}
+#copy2d {
+    width: 142px;
+    height: 30px;
+    top: 33px;
+    left: 554px;
+    background: url(../img/copy2.png)no-repeat -300px -15px;
+}
+
+#copy2e {
+    /*position: absolute;*/
+    width: 339px;
+    height: 24px;
+    top: 34px;
+    left: 318px;
+    background: url('../img/copy2_2.png')no-repeat 0 0;
+    opacity: 0;
+}
+
+
+#lightBlueContainer {
+    width: 21px;
+    height: 245px;
+    top: -1px;
+    left: 486px;
+    overflow: hidden;
+}
+#lightBlueArrow {
+    width: 43px;
+    height: 230px;
+    top: -231px;
+    left: 2px;
+    background: url('../img/lightblue_arrow.png');
+    opacity:1;
+}
+.drop {
+    width: 14px;
+    height: 25px;
+    background: url('../img/drop.png');
+    opacity:0;
+    transform: scale(.5);
+    -moz-transform: scale(.5);
+    -webkit-transform: scale(.5);
+}
+/*#drop1 {
+    top: -20px;
+    left: 480px;
+}*/
+/*#drop2 {
+    top: -20px;
+    left: 500px;
+}*/
+#drop3 {
+    top: -40px;
+    left: 465px;
+}
+/*#drop4 {
+    top: -40px;
+    left: 490px;
+}*/
+/*#drop5 {
+    top: -60px;
+    left:485px;
+}*/
+#drop6 {
+    top: -60px;
+    left: 518px;
+}
+#drop7 {
+    top: -70px;
+    left: 490px;
+}
+/*
+#drop8 {
+    top: 193px;
+    left: 187px;
+}
+#drop9 {
+    top: -32px;
+    left: 84px;
+}
+#drop10 {
+    top: -80px;
+    left: 86px;
+}
+#drop11 {
+    top: -54px;
+    left: 198px;
+}
+#drop12 {
+    top: -93px;
+    left: 187px;
+}
+*/
+#disclaimer {
+    width: 146px;
+    height: 7px;
+    top: 72px;
+    left: 11px;
+    background: url('../img/disclaimer.png');
+    opacity:1;
+}
+#disclaimer2 {
+    width: 146px;
+    height: 7px;
+    top: 73px;
+    left: 9px;
+    background: url('../img/disclaimer.png');
+    opacity:0;
+}
+#product2 {
+    width:87px;
+    height:121px;
+    top: 89px;
+    left: 300px;
+    background: url('../img/product2.png');
+    opacity:1;
+}
+#footer {
+    background-color: #4b186e;
+    top: 250px;
+    width: 471px;
+    height: 90px;
+    left: 254px;
+}
+#copy3 {
+    width: 437px;
+    height: 20px;
+    top: 18px;
+    left: 16px;
+    background: url('../img/copy3.png')no-repeat;
+}
+#cta {
+    width: 186px;
+    height: 45px;
+    top: 46px;
+    left: 140px; 
+    background: url('../img/cta.png')no-repeat;
+}
+#shimmerCont {
+    top: 5px;
+    left: 8px;
+    height: 29px;
+    width: 175px;
+    overflow: hidden;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+/*    border: 1px solid black;*/
+}
+#shimmer {
+    width: 57px;
+    height: 50px;
+    top: -3px;
+    left: -60px;
+    background: url('../img/shimmer.png')no-repeat;
+}
+#ref{
+    width:728px;
+    height: 90px;
+    top: -2px;
+    left: -2px;
+    background: url('../img/ref.png')no-repeat;
+    opacity: 0.6;
+    z-index: 999;
+}
